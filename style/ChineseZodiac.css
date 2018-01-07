@@ -1,0 +1,122 @@
+/*
+Colors
+dark rice white: #F7E1D7
+dark red: ##A4243B
+rice white: #FEE9E1
+mauve: #EDADB8
+peachy orange: #FAD3C0
+dark grey: #B09E99
+*/
+
+
+
+/*----------------GLOBAL STYLES                      */
+
+body div{
+    padding-bottom: 20px;
+    background-color: #A4243B;
+    text-align: center;
+    width: 100%;
+}
+hr{
+    background-color: #F7E1D7;
+    width: 60%;
+   
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(rgba(250,211,192,0.0),rgba(250,211,192,1.0)), url(../images/tigerbg.jpg) no-repeat fixed top left, url(../images/tigerbg2.jpg) no-repeat fixed top right ;
+    
+}
+.banner {
+    padding-bottom: 10px;
+}
+
+
+
+/*-----------------------NAV----*/
+
+
+
+
+
+.container {
+    background-color: #FEE9E1;
+    width: 50%;
+    margin: auto;
+    
+    text-align: left;
+    padding-left: 30px;
+    
+}
+.ZodiacPic {
+    max-width: 400px;
+    background-color: #FEE9E1;
+    margin: auto;
+    padding-top: 30px;
+    /*margin-top: 16px; */
+}
+.ZodiacPic img{
+    max-height: 100px;
+    max-width: 150px;
+    padding: 5px;
+}
+.container img{
+    max-width: 400px;
+    background-color: #FEE9E1;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.container p{
+    margin-top: 0;
+}
+.display {
+    max-width: 400px;
+    background-color: #FEE9E1;
+    margin: auto;
+    padding-top: 15px;
+    
+}
+.display img{
+    max-height: 300px;
+    
+}
+/*-------------FORM----------------*/
+
+.container table{
+    padding: 100px 30px 200px 30px;       
+    margin: auto;
+    border-spacing: 20px;
+}
+
+
+.submitButton{
+    background-color: #A4243B;
+    color: #FEE9E1;
+    border: #FEE9E1;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.submitButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+/*----------------------footer-----------------*/
+
+footer p{
+    display:inline-block;
+    color:  #FEE9E1;
+    margin-right:30px;
+    width: 20%;
+}
+footer a:link{
+    color: #FEE9E1;
+    text-decoration: none;
+}
+footer a:hover{
+    color:deeppink;
+    text-decoration: none
+}
